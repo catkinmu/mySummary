@@ -8,7 +8,7 @@ Vue.use(Vuex)
 let store = new Vuex.Store({
   // 在这里存储状态
   state : {
-    //是否登录, 默认未登录
+    // 是否登录, 默认未登录
     isLogin: false,
     gender: null,
     name: null,
