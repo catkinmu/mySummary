@@ -1,6 +1,5 @@
 # jq 固定表格头和列
 
-
 ```javascript
 <script type="text/javascript">
 // ************** 使用列很多的表格
@@ -114,18 +113,17 @@ sp.fixTable = function (TableID, FixColumnNumber) {
 </script>
 ```
 
-
 ```javascript
 <script type="text/javascript">
-/* 
+/*
  *点击非当前显示元素时, 当前显示元素自动隐藏   chenhao  2018/3/15
  *  使用方法
     $('#btn').on("click",function(){
         $('.menu').toggle().autoHide();
         return false;
     });
- * autoHide(speed,callback)  
- * speed	
+ * autoHide(speed,callback)
+ * speed
     可选。规定元素从可见到隐藏的速度。默认为 "0"。
     可能的值：
     毫秒 （比如 1500）
@@ -134,7 +132,7 @@ sp.fixTable = function (TableID, FixColumnNumber) {
     "fast"
     在设置速度的情况下，元素从可见到隐藏的过程中，会逐渐地改变其高度、宽度、外边距、内边距和透明度。
 
- *  callback	
+ *  callback
     可选。autoHide 函数执行完之后，要执行的函数。
 
  ****  !! 除非设置了 speed 参数，否则不能设置该参数。
